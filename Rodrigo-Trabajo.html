@@ -1,63 +1,44 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Proyecto Team Yellow</title>
-	<style type="">
+<!DOCTYPE html> 
+  <html>
+  <head>
+    <title>Presentacion-Rodrigo</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
 
-html {
-  width: 100%;
-  height: 100%;
-  background: #1c1d22;
-  font-family: "Varela Round", sans-serif;
+     section{
+      width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(45deg,red,blue,green,black,violet,purple);
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 15s ease infinite;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 720px;
-  margin: 0 auto;
-  height: 10vh;
-  list-style: none;
-}
 
-.menu li {
-  width: 125px;
-  height: 50px;
-  text-align: center;
 
-  &:hover a {
-    color: #d94f5c;
-  }
+ @keyframes  cambiar{
+  0%{background-position: 0 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0 50%;}
+ }
 
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
-}
+  </style>
+  </head>
+  <body>
+    <section>
+      <h1>Presentacion Rodrigo</h1>
+      <h1>Hola me presnto mi nombre es Rodrigo Antonio Abonce Guzman</h2>
 
-@keyframes line {
-  0% {
-    background-position-x: 390px;
-  }
-}
+    </section>
+  
+  </body>
+  </html>
 
-body {
-  color: white;
-}
 
-</style>
-</head>
-<body>
 
-<H2>
-<nav>
-  <ul class="menu">
-    <li><a href="Index.html">Home</a></li>
-  </ul>
-</nav>
-</H2>
-<center>Hola soy Rodrigo y esta es mi presentacion.</center>
-</body>
-</html>
+
+ 
