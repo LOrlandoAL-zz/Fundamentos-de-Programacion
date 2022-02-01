@@ -5,15 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Proyecto Team Yellow</title>
 	<style type="">
+/*
+        Css
+*/
 
 html {
   width: 100%;
   height: 100%;
-  background: #1c1d22;
+
+    background: -webkit-linear-gradient(to right ,hsla(230, 96%, 62%, 0.39), hsla(348, 97%, 63%, 0.37)); 
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(230, 96%, 62%, 0.39), hsla(348, 97%, 63%, 0.37));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   font-family: "Varela Round", sans-serif;
 }
 
 .menu {
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,22 +30,30 @@ html {
   margin: 0 auto;
   height: 100vh;
   list-style: none;
+
 }
 
-.menu li {
-  width: 125px;
-  height: 50px;
-  text-align: center;
-
-  &:hover a {
-    color: #d94f5c;
-  }
-
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
+.menu li{
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 20;
+    margin-right: 100px;
 }
 
+.menu li :hover{
+  text-decoration: wavy;
+  font-size: 50px;
+}
+
+.titulo-final{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* 
+        HTML
+*/
 @keyframes line {
   0% {
     background-position-x: 390px;
@@ -51,9 +68,13 @@ html {
     <li><a href="Orlando-Presentacion.html">Orlando</a></li>
     <li><a href="Rodrigo-Presentacion.html">Rodrigo </a></li>
     <li><a href="#!">Osviel</a></li>
-    <li><a href="#!">Gabo</a></li>
+    <li><a href="GABRIEL-PRESENTACION.html">Gabo</a></li>
   </ul>
 </nav>
 </H2>
 </body>
+
+  <h2 class="titulo-final">&copy; Equipo Amarillo (Fundamentos de Programacion) ITSUR</h2>
+</footer>
+
 </html>
